@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.menu-container{
+
+.menu-container {
     background-color: rgb(39, 37, 37);
     padding: 10px;
     color: white;
@@ -12,58 +13,65 @@
     justify-content: space-around;
 
 }
-.logo-photo{
+
+.logo-photo {
     width: 120px;
 }
-.item{
+
+.item {
     margin: 10px;
     font-size: 22px;
     font-weight: bold;
     cursor: pointer;
 }
-.item:hover{
+
+.item:hover {
     color: aqua;
-    
-    
+
+
 }
-.menus{
+
+.menus {
     display: flex;
     margin: 5px;
 }
 
 
-.banner-img{
+.banner-img {
     width: 300px;
 }
 
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    background-image: url("./assets/images/background.png"),linear-gradient(90deg,#030303,#1a1b1aee);
+    background-image: url("./assets/images/background.png"), linear-gradient(90deg, #030303, #1a1b1aee);
     color: white;
 }
-.banner-description{
+
+.banner-description {
     margin-top: 15px;
     margin-left: 2px;
     font-size: 20px;
 }
-.banner-title{
+
+.banner-title {
     margin-left: 2px;
     font-size: 40px;
 }
-.banner-btn{
+
+.banner-btn {
     padding: 10px;
     margin-top: 15px;
-    
+
     background-color: orangered;
     color: white;
     border: none;
 }
 
-.about-container{
+.about-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,19 +79,100 @@
     flex-direction: row-reverse;
     margin-left: 50px;
 }
-.about-title{
-    margin-top: 25px;
+
+.about-title {
+    margin-top: 45px;
+    margin-bottom: 30px;
     text-align: center;
     font-size: 35px;
     font-weight: bolder;
-    
+
 }
 
-.about-info{
+.about-info {
     font-size: 20px;
-    
+
 }
 
-.about-description{
-     margin-top: 10px;
+.box {
+    margin-top: 47px;
+    width: 230px;
+    height: 310px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+}
+
+.about-description {
+    margin-top: 10px;
+}
+
+.box-btn {
+    background-color: rgb(131, 124, 124);
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.box-title {
+    margin-top: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
+}
+
+.box-description {
+    margin-top: 7px;
+    padding: 5px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: black;
+}
+
+.footer-container {
+    background-color: black;
+    height: 400px;
+    color: white;
+    padding: 10px;
+
+
+
+}
+
+.footer-subContainer {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.copyright-text {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-img {
+    width: 150px;
+    padding: 10px;
+}
+
+.links {
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.item1 {
+    padding: 5px;
 }
